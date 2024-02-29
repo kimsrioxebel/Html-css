@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/CSS/Kimberly.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MY Form</title>
+</head>
+<body>
+<div id="form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text"id="name"name="Required">
+    </div>
+    <div class="form-group">
+        <label for="Email">Email Address:</label>
+        <input type="email"id="Email"name="Email"required>
+    </div>
+    <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password"id="pass"name="Pssword"required>
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+              <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="others">others</option>
+        </select>
+
+    </div>
+    <div class="form-group">
+        <label>interest</label>
+        <input type="checkbox"id="interest1"name="interest1">
+            <label for="interest1">Reading</label>
+            <input type="checkbox"id="interest2"name="interest2">
+            <label for="interest2">coding</label>
+            <input type="checkbox"id="interest3"name="interest3">
+            <label for="interest3">travelling</label>
+
+    </div>
+    <div class="form-group">
+        <label>Choose a programming language</label>
+        <input type="radio"id="lang1"name="lang1"value="java">
+        <label for="lang1">java</label>
+        <input type="radio"id="lang2"name="lang2"value="python">
+        <label for="lang2">python</label>
+        <input type="radio"id="lang3"name="lang3"value="java">
+        <label for="lang3">kotlin</label>
+        <input type="radio"id="lang4"name="lang4"value="kotlin">
+        <label for="lang4">kotlin</label>
+
+    </div>
+    <div class="form-group">
+        <label for="message">additional information</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+    </div>
+    <div class="form-group">
+        <button type="submit">submit</button>
+    </div>
+</div>
+
+</body>
+</html>

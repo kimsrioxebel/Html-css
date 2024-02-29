@@ -1,0 +1,50 @@
+.fruits{
+    border: solid 3px #000000;
+    background-color: #800022;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    font-family: "Century Schoolbook L";
+}
+.cars{
+    border: black dotted 2px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px;
+}
+.Fruits{
+    text-align: center;
+  text-decoration-thickness: 10px;
+    background-color: olive;
+
+}
+.Apples{
+    text-align: center;
+    border: 3px solid burlywood;
+    background-color: #1eccd2;
+}
+.Artist{
+    text-align: center;
+    background-color: greenyellow;
+    font-family: KacstOne;
+}
+.Movies{
+    text-align: center;
+    font-family: aakar;
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+}
+#Computers{
+    background-color: deepskyblue;
+    text-align: center;
+    font-size:20px;
+    font-family: "Droid Sans";
+    border: 3px solid bisque;
+}
+#Story Books{
+    background-color: black;
+    text-align: center;
+    font-family: "Abyssinica SIL";
+    border:3px solid skyblue;
+}

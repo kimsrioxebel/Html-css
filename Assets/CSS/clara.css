@@ -1,0 +1,18 @@
+form{
+    background-color: dotted black;
+    border: black;
+    font-family: "DejaVu Sans";
+    font-size: 30px;
+    float: left;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    background-size: 100px;
+    background-repeat: no repeat;
+    border-block: black;
+    text-decoration-thickness: 10px;
+    text-decoration-color: white;
+    border: 3px solid black;
+
+
+}
